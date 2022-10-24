@@ -10,7 +10,7 @@
                   <div class="item">
                     <figure class="gradient-overlay-hover image-icon">
                       <a href="/{{$room->image}}">
-                        <img class="img-fluid" src="/{{$room->image}}" alt="Image">
+                        <img class="img-fluid" src="/images/rooms/{{ $room->image }}" alt="Image">
                       </a>
                     </figure>
                   </div>
@@ -19,7 +19,7 @@
                 <div id="room-thumbs" class="room-thumbs owl-carousel">
                   <!-- ITEM -->
                   @foreach ($rooms as $room)
-                    <div class="item"><img class="img-fluid" src="/{{$room->image}}" alt="Image"></div>
+                    <div class="item"><img class="img-fluid" src="/images/rooms/{{ $room->image }}" alt="Image"></div>
                   @endforeach
                 </div>
               </div>
@@ -215,7 +215,7 @@
                     <div class="room-grid-item">
                       <figure class="gradient-overlay-hover link-icon">
                         <a href="room.html">
-                          <img src="/{{$room->image}}" class="img-fluid" alt="Image">
+                          <img src="/images/rooms/{{ $room->image }}" class="img-fluid" alt="Image">
                         </a>
                         <div class="room-services">
                           <i class="fa fa-coffee" aria-hidden="true" data-toggle="popover" data-placement="right" data-trigger="hover" data-content="Breakfast Included" data-original-title="Breakfast"></i>

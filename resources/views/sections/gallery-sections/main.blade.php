@@ -16,8 +16,8 @@
             @foreach ($gallery as $image)
             <div class="gallery-item filter-swimmingpool col-md-3">
               <figure class="gradient-overlay image-icon">
-                <a href="images/gallery/gallery1.jpg">
-                  <img src="{{$image->image}}" class="img-fluid" alt="Image">
+                <a href="/images/gallery/{{ $image->image }}">
+                  <img src="/images/gallery/{{ $image->image }}" class="img-fluid" alt="Image">
                 </a>
                 <figcaption>{{$image->title}}</figcaption>
               </figure>

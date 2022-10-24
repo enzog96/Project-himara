@@ -7,7 +7,7 @@
             <div class="col-lg-3 col-md-6">
               <div class="staff-item">
                 <figure>
-                  <img src="{{$member->image}}" class="img-fluid" alt="Image">
+                  <img src="/images/staff/{{ $member->image }}" class="img-fluid" alt="Image">
                   <div class="position">{{$member->status}}</div>
                 </figure>
                 <div class="details">

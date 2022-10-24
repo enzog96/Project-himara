@@ -9,7 +9,7 @@
                 <div class="row">
                   <div class="col-lg-5">
                     <figure class="gradient-overlay-hover link-icon">
-                      <a href="/rooms-list/{{$room->id}}"><img src="{{$room->image}}" class="img-fluid" alt="Image"></a>
+                      <a href="/rooms-list/{{$room->id}}"><img src="/images/rooms/{{ $room->image }}" class="img-fluid" alt="Image"></a>
                     </figure>
                   </div>
                   <div class="col-lg-5">
